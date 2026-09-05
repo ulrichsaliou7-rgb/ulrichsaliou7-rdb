@@ -1,0 +1,16 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+    margin: 0;
+}
+section{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem;
+}
+@media (MAX-WIDTH:768px) {
+    NAV{display: none;}
+    h1{font-size: 2rem;}
+    section{padding: 2rem 1rem;}
+}
